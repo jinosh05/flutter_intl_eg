@@ -9,13 +9,14 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  intl: any
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  intl_utils: ^2.8.7
 
   flutter_lints: ^3.0.0
-  intl_utils: ^2.8.7
 
 flutter_intl:
   enabled: true
@@ -23,6 +24,7 @@ flutter_intl:
   main_locale: en
   arb_dir: lib/l10n
   output_dir: lib/l10n/generated
+  use_deferred_loading: true
 
 flutter:
   uses-material-design: true
