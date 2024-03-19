@@ -1,6 +1,7 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
+
 import 'intl/messages_all.dart';
 
 // **************************************************************************
@@ -86,7 +87,7 @@ class AppLocalizationDelegate extends LocalizationsDelegate<S> {
   @override
   Future<S> load(Locale locale) => S.load(locale);
   @override
-  bool shouldReload(AppLocalizationDelegate old) => false;
+  bool shouldReload(AppLocalizationDelegate old) => true;
 
   bool _isSupported(Locale locale) {
     for (var supportedLocale in supportedLocales) {
