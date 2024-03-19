@@ -35,7 +35,6 @@ class NewWidget extends StatefulWidget {
 class _NewWidgetState extends State<NewWidget> {
   @override
   Widget build(BuildContext context) {
-    S.of(context);
     return Scaffold(
       appBar: AppBar(
         title: const Text('Material App Bar'),
